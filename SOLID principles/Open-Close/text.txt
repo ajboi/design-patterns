@@ -1,0 +1,5 @@
+The Open/Close principle states that a class/module/function must be Open for extension; but close for modification.
+
+To explain, say if we have a class that already carries out functionalities x,y and z, and if you intend to add an 
+additional functionality w, you should not modify your class at all. (neither add or remove methods.)
+
