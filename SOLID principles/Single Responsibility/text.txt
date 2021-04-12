@@ -1,0 +1,9 @@
+The Single Responsibility Principle states that a class should have only a single responsibility.
+
+In other words, there should be only one reason for changing/modifying a class.
+
+This is a pretty broad rule, and the implementation often varies upon context.
+
+Therefore, don't assume that a class should have only one method. Single Responsibility Principle does not state so.
+
+For further examples and explanation, https://blog.logrocket.com/solid-principles-single-responsibility-in-javascript-frameworks/
