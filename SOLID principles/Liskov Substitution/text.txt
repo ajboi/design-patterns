@@ -1,0 +1,5 @@
+Derived classes must be substitutable for their base classes.
+
+- Robert C. Martin
+
+Read more here - https://carstenbehrens.com/liskov-substitution-principle/
