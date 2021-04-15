@@ -1,0 +1,35 @@
+Interfaces are not a part of javascript. 
+
+Interfaces consist of only the names of the class variables and methods that are expected to be 
+implemented in a class that is based on this interface.
+
+For example, a classic interface might look like:
+
+interface Animal {
+    limbs
+    eyes
+    tail
+
+    walk()
+    run()
+    sit()
+}
+
+The corresponding classes that are based on this interface should mandatorily contain the attributes and methods.
+
+The Interface Segregation Principle states the following:
+
+Make fine grained interfaces that are client specific.
+Clients should not be forced to implement interfaces they do not use.
+
+- Robert C. Martin.
+
+In the above statement, client refers to the implementing class of the interface.
+
+So, it means a class should not be forced to write an implementation for a method which does not suit its character.
+We have to split the interfaces separately such that an interface consists of only the attributes and methods that the implementing
+classes would require.
+
+Read more - https://dev.to/carstenbehrens/interface-segregation-principle-in-javascript-and-typescript-5g48
+
+If you want to implement interfaces in javascript, you can make use of typescript.
