@@ -1,0 +1,50 @@
+The Strategy pattern lets the client/application select an algorithm at runtime.
+
+It typically consists of an interface, which is implemented by classes that define the different algorithms.
+A context class selects the appropriate strategy and applies it.
+
+Since JS doesn't support Interfaces, the JS implementation of the Strategy pattern slightly differs.
+
+
+Java Implementation (not exact syntax):
+
+public interface Strategy {
+    int doOperation (int a, int b);
+}
+
+public class Add implements Strategy {
+    int doOperation (int a, int b) {
+        return a + b
+    }
+}
+
+public class Subtract implements Strategy {
+    int doOperation (int a, int b) {
+        return a - b
+    }
+}
+
+public class Multiply implements Strategy {
+    int doOperation (int a, int b) {
+        return a * b
+    }
+}
+
+public class Context {
+    Strategy strategy; (defining a variable of the type strategy)
+
+    constructor (Strategy strategyValue) {
+        this.strategy = strategyValue (assigning the strategyValue to the strategy object.)
+    }
+
+    int doStrategy (int a, int b) {
+        return this.strategy.doOperation(int a, int b)
+    }
+}
+
+public class Main {
+    void main () {
+        Context x = new Context (new Multiply)
+        x.doStrategy(3,4) (prints 12)
+    }
+}
