@@ -1,0 +1,9 @@
+According to the Dependency inversion principle,
+
+A. Higher level modules should not depend on lower level modules. Both should depend on abstractions.
+B. Abstractions should not depend on details. Details should depend on abstractions.
+
+A dependency can be any class or modules whose attributes/methods are used by other classes.
+Higher-level would refer to a class that does higher abstraction stuff like Input/Output
+Lower-level would refer to a class that does lower abstraction complex stuff like handling network communications.
+
