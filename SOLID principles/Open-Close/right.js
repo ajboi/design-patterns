@@ -1,4 +1,4 @@
-class multipleChoice {
+class MultipleChoice {
   constructor (options, description) {
     this.type = 'multipleChoice'
     this.options = options
@@ -25,7 +25,7 @@ class Range {
 }
 
 const questions = [
-  new multipleChoice([22, 23, 24], 'Choose your age.'),
+  new MultipleChoice([22, 23, 24], 'Choose your age.'),
   new Range('Choose from a scale of 1 to 10')
 ]
 
