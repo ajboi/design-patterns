@@ -1,0 +1,6 @@
+An Observer pattern establishes a one-to-many relationship between a class called Subject and a collection of classes called
+Observers.
+
+The observer objects are notified whenever the state of the Subject class changes.
+
+In Java, this patten is best implemented through the use of interfaces.
