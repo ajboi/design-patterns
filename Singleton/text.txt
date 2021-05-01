@@ -1,0 +1,11 @@
+A Singleton design pattern allows a class to have only one instance of it to exist at a given point of time.
+
+If it is instantiated an nth time, the constructor will return back the already existing reference.
+
+It is used in situations where a state or a resource has to be shared by all the components of a system. 
+In this case, having a single instance up and running prevents the systems from randomly modifying the states and creating chaos.
+
+Some examples include logging functionalities. Even in the case of a computer, if you visualise the input devices such as mouse and
+keyboard as classes, you will realise that it'd cause problems to have more than one instances of a keyboard or mouse running at the
+same time. So, these classes might consider using the Singleton pattern. (I'm not sure if they actually do, they most probably won't,
+since singleton pattern is a heavily disputed pattern.)
