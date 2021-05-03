@@ -1,3 +1,5 @@
+// A class that implements the Singleton pattern.
+
 class Logger {
   constructor () {
     if (Logger.instance == null) { // Logger.instance is a static variable of this class. Value of Logger.instance will be null/undefined when it's not declared or initialised.
